@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:ignore="ContentDescription">
+    <data>
+        <variable name="vm" type="ollu.dp.ua.videolist.features.movies.MoviesViewModel"/>
+        <import type="android.view.View"/>
+    </data>
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorAccent">
+
+        <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/movieList"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="3dp"
+                android:background="@color/colorAccent"
+                app:visible="@{vm.movieListVisible}"/>
+
+        <ImageView
+                android:id="@+id/emptyView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@mipmap/ic_batman"
+                android:visibility="gone"
+                app:visible="@{!vm.movieListVisible}"
+
+                android:scaleType="center"
+                android:paddingBottom="160dp"/>
+
+    </RelativeLayout>
+</layout>

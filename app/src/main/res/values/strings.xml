@@ -1,0 +1,21 @@
+<resources>
+    <!-- Animations -->
+    <string name="movie_transition_poster" translatable="false">moviePosterTransition</string>
+
+    <string name="app_name">VideoList</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="failure_network_connection">No Network Connection.</string>
+    <string name="failure_server_error">Server Error</string>
+    <string name="failure_movies_list_unavailable">Movies Unavailable.</string>
+    <string name="failure_movie_non_existent">Movie Not Existent</string>
+    <string name="unknown_error">Unknown error</string>
+    <string name="movies_screen_title">Movies</string>
+    <string name="movie_details_screen_title">Movie Details</string>
+    <string name="movie_details_summary">Summary</string>
+    <string name="movie_details_cast">Cast</string>
+    <string name="movie_details_director">Director</string>
+    <string name="movie_details_year">Year</string>
+    <string name="search_hint">Search movies</string>
+    <string name="search_title">Search</string>
+    <string name="no_trailers">No trailer</string>
+</resources>

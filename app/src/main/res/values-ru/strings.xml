@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ВидеоЛист</string>
+    <string name="action_refresh">Обновить</string>
+    <string name="failure_network_connection">Нет соединения с интернетом</string>
+    <string name="failure_server_error">Ошибка сервера</string>
+    <string name="failure_movies_list_unavailable">Видео не доступно</string>
+    <string name="failure_movie_non_existent">Видео не существует</string>
+    <string name="unknown_error">Неизвестная ошибка.</string>
+    <string name="movies_screen_title">Видео</string>
+    <string name="movie_details_screen_title">Детали видео</string>
+    <string name="movie_details_summary">Описание</string>
+    <string name="movie_details_cast">Актёры</string>
+    <string name="movie_details_director">Режисёр</string>
+    <string name="movie_details_year">Год</string>
+    <string name="search_hint">Поиск видео</string>
+    <string name="search_title">Поиск</string>
+    <string name="no_trailers">Нет трейлера</string>
+</resources>
